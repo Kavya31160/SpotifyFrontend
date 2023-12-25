@@ -1,0 +1,42 @@
+<!-- <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="Search your favorite music here">
+      <button type="submit" (click)="onSearch()" class="searchButton" >search 
+     </button>
+   </div>
+</div> -->
+<div class="grid-container" *ngIf="data" >
+   <!-- <h2>Album Details</h2> -->
+   <!-- <div class="album-details">
+    
+     <p>Label: {{ data.label }}</p>
+   </div>
+   <div class="artists">
+      <h3>Artists</h3>
+      <ul>
+        <li *ngFor="let artist of data.artists">
+         <a href="{{ artist.href }}" target="_blank">{{ artist.name }}</a>
+      </li>
+    </ul>
+  </div> -->
+  <div class="tracks">
+   <h3>Tracks</h3>
+   <div class="tracks-container">
+     <div *ngFor="let track of data" (click)="addTrack(track)" class="track">
+     <!---- <p>Track ID: {{ track.id }}</p>-->
+     
+      <p>Track Name: {{ track.name }}</p>
+     
+      <h4>Artists</h4>
+      
+      <ul>
+        <li *ngFor="let artist of track.artists">
+         <a href="{{ artist.href }}" target="_blank">{{ artist.name }}</a>
+      </li>
+    </ul>
+    <button disabled="{{track.isAdded}}" class="registerbtn">{{track.isAdded==true?'Added to Wishlist!':'Add to Wishlist'}} </button>
+    
+  </div>
+</div>
+</div>
+</div>

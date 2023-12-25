@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-area{
+    background-image: url('https://www.politico.eu/cdn-cgi/image/width=1160,height=772,fit=crop,quality=80,onerror=redirect,format=auto/wp-content/uploads/2019/03/GettyImages-458314418.jpg');
+    background-position: center center;
+    background-size:100% ;
+    /* -webkit-background-size:cover ; */
+    height: 100vh;
+    width: auto;
+    margin: auto;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin-top:30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color:blueviolet;
+}
+/* .site-logo{
+    height: 0%;
+    width: 0%;
+    float:corner-present;
+    list-style: none;
+    font-size: 0px;
+    padding: left -4.5em;
+    
+} */
+/* .banner-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.banner-text h1{
+    text-align: center;
+    color:lime;
+    
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family:cursive;
+}
+.banner-text p{
+    color: #fff;
+    font-size: 18px;
+}
+.banner-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.banner-text a:hover{
+    background-color: white;
+    color: rgba(68, 25, 109, 0.623);
+    font-weight: bold;
+} */

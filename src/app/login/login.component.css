@@ -1,0 +1,119 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url('https://img.freepik.com/premium-photo/social-media-collage-design_52683-107114.jpg?w=1060');
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align:center;
+padding-left: 240px; 
+padding-top: 40px;
+
+}
+
+* {box-sizing: border-box;}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color:whitesmoke;
+  border-radius: 10px;
+ 
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  font-size: medium;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity:0.5;
+}
+
+/* Extra styles for the cancel button */
+/* .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+} */
+
+/* Float cancel and signup buttons and add an equal width */
+ .signupbtn {
+  float: left;
+  width: 150%;
+  
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  border-radius: 5px;
+}
+
+/* The Modal (background) */
+/* .modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #474e5d;
+  padding-top: 50px;
+} */
+
+/* Modal Content/Box */
+/* .modal-content {
+  background-color:tomato;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 20%; 
+} */
+
+
+a {
+  color: dodgerblue;
+}
+
+
+
+/* .close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+Clear floats
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+/* Change styles for cancel button and signup button on extra small screens */
+/* @media screen and (max-width: 300px) {
+   .signupbtn {
+     width: 10%;
+
+  }
+} */

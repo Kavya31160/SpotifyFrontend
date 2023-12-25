@@ -1,0 +1,20 @@
+.grid-container {
+    color: #00B4CC;
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+  }
+  .tracks-container {
+    color: brown;
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .track {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }

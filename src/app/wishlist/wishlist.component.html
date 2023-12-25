@@ -1,0 +1,14 @@
+<div class="grid-container" *ngIf="data">
+
+    <div class="tracks">
+        <h3>Tracks</h3>
+        <div class="tracks-container">
+            <div *ngFor="let track of data" (click)="removeTrack(track)" class="track">
+                <img src="https://i.scdn.co/image/ab67616d0000b2731069759b6a432e31e4ff815b"width="180px">
+                <p>Track Name: {{ track.trackName }}</p>
+                <button  class="registerbtn">Remove from Wishlist  </button>
+
+            </div>
+        </div>
+    </div>
+</div>

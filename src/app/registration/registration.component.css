@@ -1,0 +1,90 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+
+  
+    
+    
+  }
+ /* .background-image {
+    background-image: url('../../assets/theatre.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+  }*/
+  
+  * {
+    box-sizing:border-box;
+    
+    
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 10px;
+    /* background-color:cadetblue; */
+    text-align:center;
+    background-image:url('https://images.pexels.com/photos/583843/pexels-photo-583843.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:black;
+    background-position:center;
+
+    
+    
+   
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 16%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border:black;
+    background:lightsteelblue;
+    border-radius: 10px;
+  }
+ 
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color:darkslateblue;
+    color: white;
+    padding: 16px 10px;
+    margin: 10px 0px 0px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+    border-radius: 8px;
+   
+  }
+  
+  .registerbtn:hover {
+    opacity:0.5;
+  }
+  
+ 
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+   /*Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align:center;
+  }
+ 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<form >
+  <div class="container">
+    <h1 style="font-weight: bold;text-decoration: underline;">Login</h1>
+    <p> Please Enter your Credentials</p>
+    
+    <label for="Useremail"><b>Email : </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Enter your Email" name="email" id="email" [(ngModel)]="login.useremail" >
+     <br>
+    <label for="psw"><b>Password : </b></label>&nbsp;
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" [(ngModel)]="login.password">
+    <br>
+  
+    <button type="submit" (click)='Onlogin()' class="registerbtn">Login</button>
+   
+    <p  >New User? <a href="/registration">SignUp</a>.</p>
+     <a href="/home">Go Back to Home</a>
+  </div>
+  
+</form>
+
+</body>
+</html>

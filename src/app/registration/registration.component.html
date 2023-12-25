@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <form>
+    <div class="container">
+      <h1 style="color:floralwhite;font-weight:bold;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Spotify Music App</h1> 
+      <h2 style="color:floralwhite;font-weight: bold;">Registration</h2>
+     
+      <hr>
+      <h3>Please fill the essentials</h3>
+      <!----ngModel binds the data-->
+
+      <label for="firstName"><b> FirstName : </b></label>&nbsp;&nbsp;&nbsp;
+      <input type="text" placeholder="Enter Your firstName" name="firstname" id="firstname"
+        [(ngModel)]="user.firstname">
+      <br>
+      <label for="lastname"><b> Lastname : </b> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" placeholder="Enter Your lastname" name="lastname" id="lastname" [(ngModel)]="user.lastname">
+      <br>
+      
+
+      <label for="useremail"><b> Email Id : </b> </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" placeholder="Enter your Email" name="useremail" id="useremail" [(ngModel)]="user.useremail">
+      <!-- <div *ngIf="useremail.validity.valueMissing && useremail.touched">
+        Email is required
+  </div>
+  <div *ngIf="Useremail.validity.typeMismatch Useremail.touched">
+        Invalid email format
+  </div>   -->
+      <br>
+      <label for="psw"><b> Password : </b> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" [(ngModel)]="user.password">
+      <br>
+      <label for="Mobile "><b> Phone : </b>
+      </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" placeholder=" Enter your Mobile number" name="mobile" id="MobileNo" [(ngModel)]="user.mobile">
+      <br>
+      <button type="submit" (click)='onSubmit()' class="registerbtn">Register</button>
+    </div>
+
+    <div class="container signin">
+      <p>Already have an account? <a href="/login">login in</a></p>
+      <a href="/home">Go Back to home</a>
+    </div>
+
+  </form>
+
+</body>
+
+</html>
